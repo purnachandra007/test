@@ -1,0 +1,19 @@
+#%RAML 1.0 ResourceType
+get:
+    is:
+      - clientDetailsHeaders:
+      - queryParameters:
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include ../responses/getFlightsResponse.json
+      400:
+        body:
+          application/json:
+            example: !include ../responses/400_getFlights.json
+              
+              
+        
+
+                         
