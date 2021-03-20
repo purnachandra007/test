@@ -1,0 +1,13 @@
+ {
+        "ID": 9,
+        "code": "eefd3000",
+        "price": 900,
+        "departureDate": "2016-02-01T00:00:00",
+        "origin": "MUA",
+        "destination": "SFO",
+        "emptySeats": 0,
+        "plane": {
+            "type": "Boeing 737",
+            "totalSeats": 150
+        }
+    }
